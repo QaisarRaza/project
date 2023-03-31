@@ -1,0 +1,53 @@
+.btn {
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px 15px;
+  border: 1px solid gray !important;
+  background: none !important;
+  color: black !important;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn:hover {
+  border-color: #01e994 !important;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 7px solid;
+  border-right: 7px solid transparent;
+  border-bottom: 0;
+  border-left: 7px solid transparent;
+}
+
+.dropdown-menu {
+  width: 100%;
+  border-radius: 20px;
+}
+#checkBox {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 0px;
+}
+#checkBox:hover {
+  border-color: #01e994;
+}
+#checkBox p {
+  margin-bottom: 0%;
+
+  margin-left: 5px;
+}
+
+.borderClr {
+  border-color: #01e994 !important;
+}
